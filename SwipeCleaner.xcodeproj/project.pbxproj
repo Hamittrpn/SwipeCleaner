@@ -13,6 +13,10 @@
 		9525BA86238D1DEA005D8A4A /* SwipeCleaner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9525BA84238D1DEA005D8A4A /* SwipeCleaner.xcdatamodeld */; };
 		9525BA88238D1DEB005D8A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9525BA87238D1DEB005D8A4A /* Assets.xcassets */; };
 		9525BA8B238D1DEB005D8A4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9525BA89238D1DEB005D8A4A /* LaunchScreen.storyboard */; };
+		9525BA97238D4E51005D8A4A /* CardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525BA96238D4E51005D8A4A /* CardVC.swift */; };
+		9525BA99238D6E9D005D8A4A /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525BA98238D6E9D005D8A4A /* UIViewX.swift */; };
+		9525BA9B238D7898005D8A4A /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525BA9A238D7898005D8A4A /* UIButtonX.swift */; };
+		95A9BAAF238DCAE900530419 /* CleanMediaVcMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9BAAE238DCAE900530419 /* CleanMediaVcMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9525BA87238D1DEB005D8A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9525BA8A238D1DEB005D8A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9525BA8C238D1DEB005D8A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9525BA96238D4E51005D8A4A /* CardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardVC.swift; sourceTree = "<group>"; };
+		9525BA98238D6E9D005D8A4A /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		9525BA9A238D7898005D8A4A /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		95A9BAAE238DCAE900530419 /* CleanMediaVcMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanMediaVcMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				9525BA7D238D1DEA005D8A4A /* AppDelegate.swift */,
 				9525BA7F238D1DEA005D8A4A /* ViewController.swift */,
+				9525BA96238D4E51005D8A4A /* CardVC.swift */,
+				95A9BAAE238DCAE900530419 /* CleanMediaVcMenu.swift */,
 				9525BA81238D1DEA005D8A4A /* Main.storyboard */,
 				9525BA87238D1DEB005D8A4A /* Assets.xcassets */,
 				9525BA89238D1DEB005D8A4A /* LaunchScreen.storyboard */,
 				9525BA8C238D1DEB005D8A4A /* Info.plist */,
 				9525BA84238D1DEA005D8A4A /* SwipeCleaner.xcdatamodeld */,
+				9525BA98238D6E9D005D8A4A /* UIViewX.swift */,
+				9525BA9A238D7898005D8A4A /* UIButtonX.swift */,
 			);
 			path = SwipeCleaner;
 			sourceTree = "<group>";
@@ -140,6 +152,10 @@
 			files = (
 				9525BA86238D1DEA005D8A4A /* SwipeCleaner.xcdatamodeld in Sources */,
 				9525BA80238D1DEA005D8A4A /* ViewController.swift in Sources */,
+				9525BA9B238D7898005D8A4A /* UIButtonX.swift in Sources */,
+				95A9BAAF238DCAE900530419 /* CleanMediaVcMenu.swift in Sources */,
+				9525BA97238D4E51005D8A4A /* CardVC.swift in Sources */,
+				9525BA99238D6E9D005D8A4A /* UIViewX.swift in Sources */,
 				9525BA7E238D1DEA005D8A4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

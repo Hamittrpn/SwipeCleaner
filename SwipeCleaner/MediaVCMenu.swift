@@ -6,4 +6,18 @@
 //  Copyright © 2019 Hamit  Tırpan. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension ConsiderMediaVC{
+    
+    func hideButton(){
+        fbButton.alpha = 0
+        twitterButton.alpha = 0
+        googleButton.alpha = 0
+        waButton.alpha = 0
+    }
+    
+    func toggleMenu(){
+        if darkFill.transform == .ide
+    }
+}
